@@ -1,0 +1,44 @@
+{
+  "acno": "N03873", 
+  "acquisitionYear": 1924, 
+  "all_artists": "Charles Ginner", 
+  "catTextResId": 1139232, 
+  "catalogueGroup": {}, 
+  "classification": "on paper, unique", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1878, 
+      "date": "1878\u20131952", 
+      "displayOrder": 1, 
+      "fc": "Charles Ginner", 
+      "gender": "Male", 
+      "id": 1175, 
+      "mda": "Ginner, Charles", 
+      "role": "artist", 
+      "startLetter": "G"
+    }
+  ], 
+  "creditLine": "Purchased 1924", 
+  "dateRange": {
+    "startYear": 1923, 
+    "text": "1923"
+  }, 
+  "dateText": "1923", 
+  "depth": "", 
+  "dimensions": "support: 443 x 314 mm", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "314", 
+  "id": 5354, 
+  "inscription": null, 
+  "medium": "Ink, watercolour and graphite on paper", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": "\u00a9 Tate", 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/N/N03/N03873_8.jpg", 
+  "title": "From a Hampstead Window", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/ginner-from-a-hampstead-window-n03873", 
+  "width": "443"
+}

@@ -1,0 +1,43 @@
+{
+  "acno": "N04548", 
+  "acquisitionYear": 1930, 
+  "all_artists": "Sir Charles Wheeler", 
+  "catalogueGroup": {}, 
+  "classification": "sculpture", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1892, 
+      "date": "1892\u20131974", 
+      "displayOrder": 1, 
+      "fc": "Sir Charles Wheeler", 
+      "gender": "Male", 
+      "id": 2138, 
+      "mda": "Wheeler, Sir Charles", 
+      "role": "artist", 
+      "startLetter": "W"
+    }
+  ], 
+  "creditLine": "Presented by the Trustees of the Chantrey Bequest 1930", 
+  "dateRange": {
+    "startYear": 1929, 
+    "text": "1929-30"
+  }, 
+  "dateText": "1929\u201330", 
+  "depth": "648", 
+  "dimensions": "object: 1626 x 1308 x 648 mm", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "1308", 
+  "id": 16117, 
+  "inscription": null, 
+  "medium": "Bronze on stone base", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": "\u00a9 Estate of Sir Charles Wheeler", 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/N/N04/N04548_8.jpg", 
+  "title": "Spring", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/wheeler-spring-n04548", 
+  "width": "1626"
+}

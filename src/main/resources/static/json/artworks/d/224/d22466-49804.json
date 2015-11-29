@@ -1,0 +1,90 @@
+{
+  "acno": "D22466", 
+  "acquisitionYear": 1856, 
+  "all_artists": "Joseph Mallord William Turner", 
+  "catalogueGroup": {
+    "accessionRanges": "D22463-D22556; D41105-D41106", 
+    "completeStatus": "COMPLETE", 
+    "finbergNumber": "CCXLI", 
+    "groupType": "Turner Sketchbook", 
+    "id": 65872, 
+    "shortTitle": "Marine Dabblers Sketchbook"
+  }, 
+  "classification": "on paper, unique", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1775, 
+      "date": "1775\u20131851", 
+      "displayOrder": 1, 
+      "fc": "Joseph Mallord William Turner", 
+      "gender": "Male", 
+      "id": 558, 
+      "mda": "Turner, Joseph Mallord William", 
+      "role": "artist", 
+      "startLetter": "T"
+    }
+  ], 
+  "creditLine": "Accepted by the nation as part of the Turner Bequest 1856", 
+  "dateRange": {
+    "startYear": 1829, 
+    "text": "c.1829-30"
+  }, 
+  "dateText": "c.1829\u201330", 
+  "depth": "", 
+  "dimensions": "support: 113 x 89 mm", 
+  "finberg": "CCXLI 2 a", 
+  "foreignTitle": null, 
+  "groupTitle": "Marine Dabblers Sketchbook", 
+  "height": "89", 
+  "id": 49804, 
+  "inscription": null, 
+  "medium": "Graphite on paper", 
+  "movementCount": 0, 
+  "pageNumber": 6, 
+  "subjectCount": 2, 
+  "subjects": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "id": 636, 
+                "name": "hill"
+              }
+            ], 
+            "id": 71, 
+            "name": "landscape"
+          }
+        ], 
+        "id": 60, 
+        "name": "nature"
+      }, 
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "id": 213, 
+                "name": "house"
+              }
+            ], 
+            "id": 26, 
+            "name": "residential"
+          }
+        ], 
+        "id": 13, 
+        "name": "architecture"
+      }
+    ], 
+    "id": 1, 
+    "name": "subject"
+  }, 
+  "thumbnailCopyright": null, 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/D/D22/D22466_8.jpg", 
+  "title": "Landscape, with Two Houses", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/turner-landscape-with-two-houses-d22466", 
+  "width": "113"
+}

@@ -1,0 +1,43 @@
+{
+  "acno": "T01521", 
+  "acquisitionYear": 1972, 
+  "all_artists": "Tsai Wen-Ying", 
+  "catalogueGroup": {}, 
+  "classification": "sculpture", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1928, 
+      "date": "1928\u20132013", 
+      "displayOrder": 1, 
+      "fc": "Tsai Wen-Ying", 
+      "gender": "Male", 
+      "id": 2071, 
+      "mda": "Tsai, Wen-Ying", 
+      "role": "artist", 
+      "startLetter": "T"
+    }
+  ], 
+  "creditLine": "Purchased 1972", 
+  "dateRange": {
+    "startYear": 1971, 
+    "text": "1971"
+  }, 
+  "dateText": "1971", 
+  "depth": "1803", 
+  "dimensions": "object: 2654 x 1803 x 1803 mm", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "1803", 
+  "id": 14496, 
+  "inscription": null, 
+  "medium": "Metal, concrete, wood and motor", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": null, 
+  "thumbnailUrl": null, 
+  "title": "Umbrella", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/tsai-umbrella-t01521", 
+  "width": "2654"
+}

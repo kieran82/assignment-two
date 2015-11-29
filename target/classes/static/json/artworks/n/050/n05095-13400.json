@@ -1,0 +1,144 @@
+{
+  "acno": "N05095", 
+  "acquisitionYear": 1940, 
+  "all_artists": "Walter Richard Sickert", 
+  "catTextResId": 1136454, 
+  "catalogueGroup": {}, 
+  "classification": "on paper, unique", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1860, 
+      "date": "1860\u20131942", 
+      "displayOrder": 1, 
+      "fc": "Walter Richard Sickert", 
+      "gender": "Male", 
+      "id": 1941, 
+      "mda": "Sickert, Walter Richard", 
+      "role": "artist", 
+      "startLetter": "S"
+    }
+  ], 
+  "creditLine": "Bequeathed by Lady Henry Cavendish-Bentinck 1940", 
+  "dateRange": {
+    "startYear": 1901, 
+    "text": "c.1901"
+  }, 
+  "dateText": "c.1901", 
+  "depth": "", 
+  "dimensions": "support: 410 x 311 mm\r\nframe: 550 x 450 mm", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "311", 
+  "id": 13400, 
+  "inscription": null, 
+  "medium": "Gouache and chalk on paper", 
+  "movementCount": 0, 
+  "subjectCount": 7, 
+  "subjects": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "id": 4998, 
+                "name": "Pierrot"
+              }
+            ], 
+            "id": 716, 
+            "name": "characters"
+          }
+        ], 
+        "id": 55, 
+        "name": "literature and fiction"
+      }, 
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "id": 245, 
+                "name": "column"
+              }
+            ], 
+            "id": 17, 
+            "name": "features"
+          }
+        ], 
+        "id": 13, 
+        "name": "architecture"
+      }, 
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "id": 3600, 
+                "name": "commedia dell'arte"
+              }, 
+              {
+                "id": 3180, 
+                "name": "theatre"
+              }
+            ], 
+            "id": 53, 
+            "name": "music and entertainment"
+          }
+        ], 
+        "id": 47, 
+        "name": "leisure and pastimes"
+      }, 
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "id": 544, 
+                "name": "embracing"
+              }
+            ], 
+            "id": 177, 
+            "name": "actions: expressive"
+          }, 
+          {
+            "children": [
+              {
+                "id": 451, 
+                "name": "figure"
+              }
+            ], 
+            "id": 95, 
+            "name": "adults"
+          }
+        ], 
+        "id": 91, 
+        "name": "people"
+      }, 
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "id": 4771, 
+                "name": "mystery"
+              }
+            ], 
+            "id": 30, 
+            "name": "universal concepts"
+          }
+        ], 
+        "id": 29, 
+        "name": "emotions, concepts and ideas"
+      }
+    ], 
+    "id": 1, 
+    "name": "subject"
+  }, 
+  "thumbnailCopyright": null, 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/N/N05/N05095_8.jpg", 
+  "title": "Pierrot and Woman Embracing", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/sickert-pierrot-and-woman-embracing-n05095", 
+  "width": "410"
+}

@@ -1,0 +1,43 @@
+{
+  "acno": "T01393", 
+  "acquisitionYear": 1970, 
+  "all_artists": "Isaac Witkin", 
+  "catalogueGroup": {}, 
+  "classification": "sculpture", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1936, 
+      "date": "1936\u20132006", 
+      "displayOrder": 1, 
+      "fc": "Isaac Witkin", 
+      "gender": "Male", 
+      "id": 2159, 
+      "mda": "Witkin, Isaac", 
+      "role": "artist", 
+      "startLetter": "W"
+    }
+  ], 
+  "creditLine": "Presented by Alistair McAlpine (later Lord McAlpine of West Green) 1970", 
+  "dateRange": {
+    "startYear": 1965, 
+    "text": "1965"
+  }, 
+  "dateText": "1965", 
+  "depth": "1714", 
+  "dimensions": "object: 927 x 2588 x 1714 mm", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "2588", 
+  "id": 16400, 
+  "inscription": null, 
+  "medium": "Painted steel", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": null, 
+  "thumbnailUrl": null, 
+  "title": "Vermont I", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/witkin-vermont-i-t01393", 
+  "width": "927"
+}

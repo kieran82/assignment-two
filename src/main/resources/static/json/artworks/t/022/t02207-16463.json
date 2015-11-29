@@ -1,0 +1,43 @@
+{
+  "acno": "T02207", 
+  "acquisitionYear": 1977, 
+  "all_artists": "Samuel Woodforde", 
+  "catalogueGroup": {}, 
+  "classification": "painting", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1763, 
+      "date": "1763\u20131817", 
+      "displayOrder": 1, 
+      "fc": "Samuel Woodforde", 
+      "gender": "Male", 
+      "id": 609, 
+      "mda": "Woodforde, Samuel", 
+      "role": "artist", 
+      "startLetter": "W"
+    }
+  ], 
+  "creditLine": "Presented by the Rev. Gerald C. Streatfeild 1977", 
+  "dateRange": {
+    "startYear": 1803, 
+    "text": "exhibited 1803"
+  }, 
+  "dateText": "exhibited 1803", 
+  "depth": "40", 
+  "dimensions": "support: 3013 x 3650 x 40 mm", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "3650", 
+  "id": 16463, 
+  "inscription": null, 
+  "medium": "Oil paint on canvas", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": null, 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/T/T02/T02207_8.jpg", 
+  "title": "The Bennett Family", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/woodforde-the-bennett-family-t02207", 
+  "width": "3013"
+}

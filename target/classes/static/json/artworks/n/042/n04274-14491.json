@@ -1,0 +1,43 @@
+{
+  "acno": "N04274", 
+  "acquisitionYear": 1927, 
+  "all_artists": "Paul Troubetzkoy", 
+  "catalogueGroup": {}, 
+  "classification": "sculpture", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1866, 
+      "date": "1866\u20131938", 
+      "displayOrder": 1, 
+      "fc": "Paul Troubetzkoy", 
+      "gender": "Male", 
+      "id": 2068, 
+      "mda": "Troubetzkoy, Paul", 
+      "role": "artist", 
+      "startLetter": "T"
+    }
+  ], 
+  "creditLine": "Presented by Mrs George Bernard Shaw 1927", 
+  "dateRange": {
+    "startYear": 1926, 
+    "text": "1926"
+  }, 
+  "dateText": "1926", 
+  "depth": "267", 
+  "dimensions": "object: 594 x 365 x 267 mm", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "365", 
+  "id": 14491, 
+  "inscription": "date inscribed", 
+  "medium": "Bronze", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": null, 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/N/N04/N04274_8.jpg", 
+  "title": "George Bernard Shaw", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/troubetzkoy-george-bernard-shaw-n04274", 
+  "width": "594"
+}

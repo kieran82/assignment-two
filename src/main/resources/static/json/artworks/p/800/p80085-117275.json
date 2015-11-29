@@ -1,0 +1,54 @@
+{
+  "acno": "P80085", 
+  "acquisitionYear": 2012, 
+  "all_artists": "Jane Wilson, Louise Wilson", 
+  "catalogueGroup": {}, 
+  "classification": "on paper, print", 
+  "contributorCount": 2, 
+  "contributors": [
+    {
+      "birthYear": 1967, 
+      "date": "born 1967", 
+      "displayOrder": 1, 
+      "fc": "Jane Wilson", 
+      "gender": "Female", 
+      "id": 4147, 
+      "mda": "Wilson, Jane", 
+      "role": "artist", 
+      "startLetter": "W"
+    }, 
+    {
+      "birthYear": 1967, 
+      "date": "born 1967", 
+      "displayOrder": 2, 
+      "fc": "Louise Wilson", 
+      "gender": "Female", 
+      "id": 2793, 
+      "mda": "Wilson, Louise", 
+      "role": "artist", 
+      "startLetter": "W"
+    }
+  ], 
+  "creditLine": "Purchased 2011", 
+  "dateRange": {
+    "startYear": 2006, 
+    "text": "2006"
+  }, 
+  "dateText": "2006", 
+  "depth": "", 
+  "dimensions": "image: 1800 x 1800 mm", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "1800", 
+  "id": 117275, 
+  "inscription": null, 
+  "medium": "Photograph, gelatin silver print on paper, mounted onto aluminium", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": null, 
+  "thumbnailUrl": null, 
+  "title": "Biville", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/wilson-biville-p80085", 
+  "width": "1800"
+}

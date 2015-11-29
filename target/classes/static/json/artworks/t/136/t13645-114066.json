@@ -1,0 +1,43 @@
+{
+  "acno": "T13645", 
+  "acquisitionYear": 2012, 
+  "all_artists": "Cerith Wyn Evans", 
+  "catalogueGroup": {}, 
+  "classification": "installation", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1958, 
+      "date": "born 1958", 
+      "displayOrder": 1, 
+      "fc": "Cerith Wyn Evans", 
+      "gender": "Male", 
+      "id": 2662, 
+      "mda": "Wyn Evans, Cerith", 
+      "role": "artist", 
+      "startLetter": "W"
+    }
+  ], 
+  "creditLine": "Purchased with funds provided by the Duerckheim Collection, Tate Patrons, the Yuz Foundation, Caldic Collectie, Wassenaar and Samuel and Nina Wisnia 2012\r\n", 
+  "dateRange": {
+    "startYear": 2006, 
+    "text": "2006"
+  }, 
+  "dateText": "2006", 
+  "depth": "", 
+  "dimensions": "Overall display dimensions variable", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "", 
+  "id": 114066, 
+  "inscription": null, 
+  "medium": "Glass chandelier, flat screen and morse code unit", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": "\u00a9 Cerith Wyn Evans, courtesy Jay Jopling/White Cube, London", 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/T/T13/T13645_8.jpg", 
+  "title": "Astrophotography...The Traditional Measure of Photographic Speed in Astronomy...\u2019 by Siegfried Marx (1987)", 
+  "units": "", 
+  "url": "http://www.tate.org.uk/art/artworks/wyn-evans-astrophotographythe-traditional-measure-of-photographic-speed-in-astronomy-by-t13645", 
+  "width": ""
+}

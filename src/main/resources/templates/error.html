@@ -1,0 +1,58 @@
+  <!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    
+	<title>Error !!!!!!</title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type"></meta>
+	<link href="/css/bootstrap.min.css" rel="stylesheet"></link>
+	<link href="/css/roboto.min.css" rel="stylesheet"></link>
+	<link href="/css/material.min.css" rel="stylesheet"></link>
+	<link href="/css/ripples.min.css" rel="stylesheet"></link>
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="navbar navbar-default">
+				<div class="navbar-header">
+				</div>
+				<div class="navbar-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="/artist">Artists</a></li>
+						<li><a href="/artwork">Artwork</a></li>
+						<li  th:if="${username == 'anonymousUser'}"><a href="/login" >Login</a></li>
+						<li th:if="${username != 'anonymousUser'}"> <a href="/logout">Logout</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+			</div>
+
+			<div class="col-lg-4">
+			<h1>Something went wrong :-O</h1>
+                
+                
+               
+  	         </div>
+
+			<div class="col-lg-4">
+			</div>
+		</div>
+	</div>
+	<!-- /#wrapper -->
+	<script src="/js/jquery-1.10.2.min.js"></script> 
+	<script src="/js/bootstrap.min.js"></script> 
+	<script src="/js/ripples.min.js"></script> 
+	<script src="/js/material.min.js"></script> 
+	<script>
+	   $(document).ready(function() {
+		   // This command is used to initialize some elements and make them work properly
+		   $.material.init();
+	   });
+	</script> <!-- Menu Toggle Script -->
+	 
+	
+</body>
+</html>
+

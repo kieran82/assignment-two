@@ -1,0 +1,43 @@
+{
+  "acno": "T13209", 
+  "acquisitionYear": 2010, 
+  "all_artists": "Gavin Turk", 
+  "catalogueGroup": {}, 
+  "classification": "sculpture", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1967, 
+      "date": "born 1967", 
+      "displayOrder": 1, 
+      "fc": "Gavin Turk", 
+      "gender": "Male", 
+      "id": 2596, 
+      "mda": "Turk, Gavin", 
+      "role": "artist", 
+      "startLetter": "T"
+    }
+  ], 
+  "creditLine": "Purchased 2010", 
+  "dateRange": {
+    "startYear": 1991, 
+    "text": "1991-3"
+  }, 
+  "dateText": "1991\u20133", 
+  "depth": "560", 
+  "dimensions": "object: 1110 x 1113 x 560 mm", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "1113", 
+  "id": 107582, 
+  "inscription": null, 
+  "medium": "Paper, felt, leather, cotton, glass, wood, metal and paint", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": "\u00a9 Gavin Turk", 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/T/T13/T13209_8.jpg", 
+  "title": "Study for Window", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/turk-study-for-window-t13209", 
+  "width": "1110"
+}

@@ -1,0 +1,128 @@
+{
+  "acno": "D17159", 
+  "acquisitionYear": 1856, 
+  "additionalImages": [
+    {
+      "copyright": null, 
+      "filenameBase": "D17159", 
+      "sizes": [
+        {
+          "caption": "Enhanced image", 
+          "cleared": true, 
+          "file": "enhanced_images/D171/D17159_E.jpg", 
+          "height": 329, 
+          "resolution": 512, 
+          "size": "large", 
+          "width": 512
+        }
+      ]
+    }
+  ], 
+  "all_artists": "Joseph Mallord William Turner", 
+  "catTextResId": 1130688, 
+  "catalogueGroup": {
+    "accessionRanges": "D06363-D06491; D06493-D06517; D17159; D40596-D40602", 
+    "completeStatus": "COMPLETE", 
+    "finbergNumber": "XCIX", 
+    "groupType": "Turner Sketchbook", 
+    "id": 65746, 
+    "shortTitle": "River and Margate Sketchbook"
+  }, 
+  "classification": "on paper, unique", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1775, 
+      "date": "1775\u20131851", 
+      "displayOrder": 1, 
+      "fc": "Joseph Mallord William Turner", 
+      "gender": "Male", 
+      "id": 558, 
+      "mda": "Turner, Joseph Mallord William", 
+      "role": "artist", 
+      "startLetter": "T"
+    }
+  ], 
+  "creditLine": "Accepted by the nation as part of the Turner Bequest 1856", 
+  "dateRange": {
+    "startYear": 1807, 
+    "text": "c.1807-8"
+  }, 
+  "dateText": "c.1807\u20138", 
+  "depth": "", 
+  "dimensions": "support: 115 x 190 mm", 
+  "finberg": "CXCV a I", 
+  "foreignTitle": null, 
+  "groupTitle": "River and Margate Sketchbook", 
+  "height": "190", 
+  "id": 44515, 
+  "inscription": null, 
+  "medium": "Graphite on paper", 
+  "movementCount": 0, 
+  "pageNumber": 162, 
+  "subjectCount": 4, 
+  "subjects": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "id": 19662, 
+                "name": "bowl"
+              }
+            ], 
+            "id": 84, 
+            "name": "kitchen"
+          }, 
+          {
+            "children": [
+              {
+                "id": 2606, 
+                "name": "jar"
+              }
+            ], 
+            "id": 170, 
+            "name": "vessels and containers"
+          }, 
+          {
+            "children": [
+              {
+                "id": 1290, 
+                "name": "shelf"
+              }
+            ], 
+            "id": 82, 
+            "name": "furnishings"
+          }
+        ], 
+        "id": 78, 
+        "name": "objects"
+      }, 
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "id": 450, 
+                "name": "workshop"
+              }
+            ], 
+            "id": 46, 
+            "name": "workspaces"
+          }
+        ], 
+        "id": 40, 
+        "name": "interiors"
+      }
+    ], 
+    "id": 1, 
+    "name": "subject"
+  }, 
+  "thumbnailCopyright": null, 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/D/D17/D17159_8.jpg", 
+  "title": "A Dentist\u2019s Shop: Study for \u2018The Unpaid Bill, or the Dentist Reproving his Son\u2019s Prodigality\u2019", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/turner-a-dentists-shop-study-for-the-unpaid-bill-or-the-dentist-reproving-his-sons-d17159", 
+  "width": "115"
+}

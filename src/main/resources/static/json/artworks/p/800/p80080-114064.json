@@ -1,0 +1,43 @@
+{
+  "acno": "P80080", 
+  "acquisitionYear": 2012, 
+  "all_artists": "Cerith Wyn Evans", 
+  "catalogueGroup": {}, 
+  "classification": "on paper, print", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1958, 
+      "date": "born 1958", 
+      "displayOrder": 1, 
+      "fc": "Cerith Wyn Evans", 
+      "gender": "Male", 
+      "id": 2662, 
+      "mda": "Wyn Evans, Cerith", 
+      "role": "artist", 
+      "startLetter": "W"
+    }
+  ], 
+  "creditLine": "Purchased with assistance from Samuel and Nina Wisnia 2012", 
+  "dateRange": {
+    "startYear": 1999, 
+    "text": "1999"
+  }, 
+  "dateText": "1999", 
+  "depth": "", 
+  "dimensions": "image, each: 366 x 388 mm", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "", 
+  "id": 114064, 
+  "inscription": null, 
+  "medium": "5 digital prints on paper", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": "\u00a9 Cerith Wyn Evans, courtesy Jay Jopling/White Cube, London", 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/P/P80/P80080_8.jpg", 
+  "title": "Firework Text (Pasolini)", 
+  "units": "", 
+  "url": "http://www.tate.org.uk/art/artworks/wyn-evans-firework-text-pasolini-p80080", 
+  "width": ""
+}

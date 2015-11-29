@@ -1,0 +1,43 @@
+{
+  "acno": "T01025", 
+  "acquisitionYear": 1968, 
+  "all_artists": "Isaac Witkin", 
+  "catalogueGroup": {}, 
+  "classification": "sculpture", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1936, 
+      "date": "1936\u20132006", 
+      "displayOrder": 1, 
+      "fc": "Isaac Witkin", 
+      "gender": "Male", 
+      "id": 2159, 
+      "mda": "Witkin, Isaac", 
+      "role": "artist", 
+      "startLetter": "W"
+    }
+  ], 
+  "creditLine": "Purchased 1968", 
+  "dateRange": {
+    "startYear": 1966, 
+    "text": "1966"
+  }, 
+  "dateText": "1966", 
+  "depth": "851", 
+  "dimensions": "object: 1937 x 2419 x 851 mm", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "2419", 
+  "id": 16398, 
+  "inscription": null, 
+  "medium": "Painted steel", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": null, 
+  "thumbnailUrl": null, 
+  "title": "Angola I", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/witkin-angola-i-t01025", 
+  "width": "1937"
+}

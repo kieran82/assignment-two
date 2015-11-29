@@ -1,0 +1,49 @@
+{
+  "acno": "P79829", 
+  "acquisitionYear": 2010, 
+  "all_artists": "Guy Tillim", 
+  "catalogueGroup": {
+    "accessionRanges": "P79826-P79831; P79836-P79838", 
+    "completeStatus": "INCOMPLETE", 
+    "groupType": null, 
+    "id": 107864, 
+    "shortTitle": "Avenue Patrice Lumumba"
+  }, 
+  "classification": "on paper, print", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1962, 
+      "date": "born 1962", 
+      "displayOrder": 1, 
+      "fc": "Guy Tillim", 
+      "gender": "Male", 
+      "id": 10836, 
+      "mda": "Tillim, Guy", 
+      "role": "artist", 
+      "startLetter": "T"
+    }
+  ], 
+  "creditLine": "Purchased 2010", 
+  "dateRange": {
+    "startYear": 2008, 
+    "text": "2008"
+  }, 
+  "dateText": "2008", 
+  "depth": "", 
+  "dimensions": "unconfirmed: 915 x 1315 mm", 
+  "foreignTitle": null, 
+  "groupTitle": "Avenue Patrice Lumumba", 
+  "height": "1315", 
+  "id": 107858, 
+  "inscription": null, 
+  "medium": "Digital print on paper", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": "\u00a9 Guy Tillim", 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/P/P79/P79829_8.jpg", 
+  "title": "City Hall Offices, Lubumbashi, DR Congo", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/tillim-city-hall-offices-lubumbashi-dr-congo-p79829", 
+  "width": "915"
+}

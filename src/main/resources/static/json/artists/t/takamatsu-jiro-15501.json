@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1936
+    }
+  }, 
+  "birthYear": 1936, 
+  "date": "1936 \u20131998", 
+  "death": {
+    "time": {
+      "startYear": 1998
+    }
+  }, 
+  "fc": "Jiro Takamatsu", 
+  "gender": "Male", 
+  "id": 15501, 
+  "mda": "Takamatsu, Jiro", 
+  "movements": [], 
+  "startLetter": "T", 
+  "totalWorks": 45, 
+  "url": "http://www.tate.org.uk/art/artists/jiro-takamatsu-15501"
+}

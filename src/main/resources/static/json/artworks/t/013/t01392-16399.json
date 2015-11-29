@@ -1,0 +1,43 @@
+{
+  "acno": "T01392", 
+  "acquisitionYear": 1970, 
+  "all_artists": "Isaac Witkin", 
+  "catalogueGroup": {}, 
+  "classification": "sculpture", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1936, 
+      "date": "1936\u20132006", 
+      "displayOrder": 1, 
+      "fc": "Isaac Witkin", 
+      "gender": "Male", 
+      "id": 2159, 
+      "mda": "Witkin, Isaac", 
+      "role": "artist", 
+      "startLetter": "W"
+    }
+  ], 
+  "creditLine": "Presented by Alistair McAlpine (later Lord McAlpine of West Green) 1970", 
+  "dateRange": {
+    "startYear": 1963, 
+    "text": "1963"
+  }, 
+  "dateText": "1963", 
+  "depth": "470", 
+  "dimensions": "object: 1664 x 705 x 470 mm", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "705", 
+  "id": 16399, 
+  "inscription": null, 
+  "medium": "Wood, metal and fibreglass", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": null, 
+  "thumbnailUrl": null, 
+  "title": "Alter-Ego", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/witkin-alter-ego-t01392", 
+  "width": "1664"
+}

@@ -1,0 +1,105 @@
+{
+  "acno": "D04362", 
+  "acquisitionYear": 1856, 
+  "all_artists": "Joseph Mallord William Turner", 
+  "catTextResId": 1129771, 
+  "catalogueGroup": {
+    "accessionRanges": "D04275-D04390; D41518", 
+    "completeStatus": "COMPLETE", 
+    "finbergNumber": "LXXII", 
+    "groupType": "Turner Sketchbook", 
+    "id": 65721, 
+    "shortTitle": "Studies in the Louvre Sketchbook"
+  }, 
+  "classification": "on paper, unique", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1775, 
+      "date": "1775\u20131851", 
+      "displayOrder": 1, 
+      "fc": "Joseph Mallord William Turner", 
+      "gender": "Male", 
+      "id": 558, 
+      "mda": "Turner, Joseph Mallord William", 
+      "role": "artist", 
+      "startLetter": "T"
+    }
+  ], 
+  "creditLine": "Accepted by the nation as part of the Turner Bequest 1856", 
+  "dateRange": {
+    "startYear": 1802, 
+    "text": "1802"
+  }, 
+  "dateText": "1802", 
+  "depth": "", 
+  "dimensions": "support: 128 x 114 mm", 
+  "finberg": "LXXII 68", 
+  "foreignTitle": null, 
+  "groupTitle": "Studies in the Louvre Sketchbook", 
+  "height": "114", 
+  "id": 31755, 
+  "inscription": null, 
+  "medium": "Graphite on paper", 
+  "movementCount": 0, 
+  "pageNumber": 141, 
+  "subjectCount": 4, 
+  "subjects": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "id": 10914, 
+                "name": "Holy Family"
+              }
+            ], 
+            "id": 134, 
+            "name": "Bible: New Testament"
+          }
+        ], 
+        "id": 132, 
+        "name": "religion and belief"
+      }, 
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "id": 531, 
+                "name": "baby"
+              }
+            ], 
+            "id": 94, 
+            "name": "children"
+          }, 
+          {
+            "children": [
+              {
+                "id": 195, 
+                "name": "man"
+              }, 
+              {
+                "id": 167, 
+                "name": "woman"
+              }
+            ], 
+            "id": 95, 
+            "name": "adults"
+          }
+        ], 
+        "id": 91, 
+        "name": "people"
+      }
+    ], 
+    "id": 1, 
+    "name": "subject"
+  }, 
+  "thumbnailCopyright": null, 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/D/D04/D04362_8.jpg", 
+  "title": "The Visitation, after Jan Lievens", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/turner-the-visitation-after-jan-lievens-d04362", 
+  "width": "128"
+}

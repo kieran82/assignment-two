@@ -1,0 +1,49 @@
+{
+  "acno": "T13622", 
+  "acquisitionYear": 2012, 
+  "all_artists": "Fred Wilson", 
+  "catalogueGroup": {
+    "accessionRanges": "T13602; T13604-T13629", 
+    "completeStatus": "IRRELEVANT", 
+    "groupType": null, 
+    "id": 118813, 
+    "shortTitle": "Flag"
+  }, 
+  "classification": "painting", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1954, 
+      "date": "born 1954", 
+      "displayOrder": 1, 
+      "fc": "Fred Wilson", 
+      "gender": "Male", 
+      "id": 15855, 
+      "mda": "Wilson, Fred", 
+      "role": "artist", 
+      "startLetter": "W"
+    }
+  ], 
+  "creditLine": "Presented anonymously 2011", 
+  "dateRange": {
+    "startYear": 2009, 
+    "text": "2009"
+  }, 
+  "dateText": "2009", 
+  "depth": "", 
+  "dimensions": "support: 651 x 1070 mm", 
+  "foreignTitle": null, 
+  "groupTitle": "Flag", 
+  "height": "1070", 
+  "id": 118805, 
+  "inscription": null, 
+  "medium": "Acrylic paint on canvas", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": null, 
+  "thumbnailUrl": null, 
+  "title": "Trinidad-Tobago", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/wilson-trinidad-tobago-t13622", 
+  "width": "651"
+}

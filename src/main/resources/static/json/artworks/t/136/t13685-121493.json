@@ -1,0 +1,43 @@
+{
+  "acno": "T13685", 
+  "acquisitionYear": 2013, 
+  "all_artists": "Parviz Tanavoli", 
+  "catalogueGroup": {}, 
+  "classification": "sculpture", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1937, 
+      "date": "born 1937", 
+      "displayOrder": 1, 
+      "fc": "Parviz Tanavoli", 
+      "gender": "Male", 
+      "id": 15957, 
+      "mda": "Tanavoli, Parviz", 
+      "role": "artist", 
+      "startLetter": "T"
+    }
+  ], 
+  "creditLine": "Purchased with funds provided by Maryam and Edward Eisler 2012", 
+  "dateRange": {
+    "startYear": 1966, 
+    "text": "1966 (repaired 2009)"
+  }, 
+  "dateText": "1966 (repaired 2009)", 
+  "depth": "225", 
+  "dimensions": "object: 1095 x 712 x 225 mm", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "712", 
+  "id": 121493, 
+  "inscription": null, 
+  "medium": "Wood, metal, feather, glass, plastic, paint and light", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": "\u00a9 Parviz Tanavoli", 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/T/T13/T13685_8.jpg", 
+  "title": "Cage, cage, cage", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/tanavoli-cage-cage-cage-t13685", 
+  "width": "1095"
+}

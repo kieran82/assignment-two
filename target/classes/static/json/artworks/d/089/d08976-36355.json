@@ -1,0 +1,104 @@
+{
+  "acno": "D08976", 
+  "acquisitionYear": 1856, 
+  "all_artists": "Joseph Mallord William Turner", 
+  "catTextResId": 1134687, 
+  "catalogueGroup": {
+    "accessionRanges": "D08965-D09016; D41530", 
+    "completeStatus": "COMPLETE", 
+    "finbergNumber": "CXXVII", 
+    "groupType": "Turner Sketchbook", 
+    "id": 65770, 
+    "shortTitle": "Sandycombe and Yorkshire Sketchbook"
+  }, 
+  "classification": "on paper, unique", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1775, 
+      "date": "1775\u20131851", 
+      "displayOrder": 1, 
+      "fc": "Joseph Mallord William Turner", 
+      "gender": "Male", 
+      "id": 558, 
+      "mda": "Turner, Joseph Mallord William", 
+      "role": "artist", 
+      "startLetter": "T"
+    }
+  ], 
+  "creditLine": "Accepted by the nation as part of the Turner Bequest 1856", 
+  "dateRange": {
+    "startYear": 1809, 
+    "text": "1809"
+  }, 
+  "dateText": "1809", 
+  "depth": "", 
+  "dimensions": "support: 126 x 202 mm", 
+  "finberg": "CXXVII 9 a", 
+  "foreignTitle": null, 
+  "groupTitle": "Sandycombe and Yorkshire Sketchbook", 
+  "height": "202", 
+  "id": 36355, 
+  "inscription": null, 
+  "medium": "Graphite on paper", 
+  "movementCount": 0, 
+  "subjectCount": 4, 
+  "subjects": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "id": 805, 
+                "name": "building - non-specific"
+              }
+            ], 
+            "id": 28, 
+            "name": "townscapes, man-made features"
+          }, 
+          {
+            "children": [
+              {
+                "id": 1138, 
+                "name": "castle"
+              }
+            ], 
+            "id": 20, 
+            "name": "military"
+          }
+        ], 
+        "id": 13, 
+        "name": "architecture"
+      }, 
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "id": 636, 
+                "name": "hill"
+              }, 
+              {
+                "id": 496, 
+                "name": "wooded"
+              }
+            ], 
+            "id": 71, 
+            "name": "landscape"
+          }
+        ], 
+        "id": 60, 
+        "name": "nature"
+      }
+    ], 
+    "id": 1, 
+    "name": "subject"
+  }, 
+  "thumbnailCopyright": null, 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/D/D08/D08976_8.jpg", 
+  "title": "Millom Castle and Holy Trinity Church from the North", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/turner-millom-castle-and-holy-trinity-church-from-the-north-d08976", 
+  "width": "126"
+}

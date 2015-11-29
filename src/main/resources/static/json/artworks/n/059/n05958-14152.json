@@ -1,0 +1,43 @@
+{
+  "acno": "N05958", 
+  "acquisitionYear": 1948, 
+  "all_artists": "James Havard Thomas", 
+  "catalogueGroup": {}, 
+  "classification": "sculpture", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1854, 
+      "date": "1854\u20131921", 
+      "displayOrder": 1, 
+      "fc": "James Havard Thomas", 
+      "gender": "Male", 
+      "id": 546, 
+      "mda": "Thomas, James Havard", 
+      "role": "artist", 
+      "startLetter": "T"
+    }
+  ], 
+  "creditLine": "Purchased 1948", 
+  "dateRange": {
+    "startYear": 1912, 
+    "text": "1912"
+  }, 
+  "dateText": "1912", 
+  "depth": "397", 
+  "dimensions": "object: 1683 x 702 x 397 mm", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "702", 
+  "id": 14152, 
+  "inscription": "date inscribed", 
+  "medium": "Bronze", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": null, 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/N/N05/N05958_8.jpg", 
+  "title": "Thyrsis", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/thomas-thyrsis-n05958", 
+  "width": "1683"
+}

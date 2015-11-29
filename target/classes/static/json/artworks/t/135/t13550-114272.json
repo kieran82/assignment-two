@@ -1,0 +1,43 @@
+{
+  "acno": "T13550", 
+  "acquisitionYear": 2012, 
+  "all_artists": "Alison Wilding", 
+  "catalogueGroup": {}, 
+  "classification": "on paper, unique", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1948, 
+      "date": "born 1948", 
+      "displayOrder": 1, 
+      "fc": "Alison Wilding", 
+      "gender": "Female", 
+      "id": 2146, 
+      "mda": "Wilding, Alison", 
+      "role": "artist", 
+      "startLetter": "W"
+    }
+  ], 
+  "creditLine": "Presented anonymously 2010", 
+  "dateRange": {
+    "startYear": 2003, 
+    "text": "2003"
+  }, 
+  "dateText": "2003", 
+  "depth": "", 
+  "dimensions": "support: 430 x 516 mm", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "516", 
+  "id": 114272, 
+  "inscription": null, 
+  "medium": "Ink, acrylic paint and graphite on paper", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": "\u00a9 Alison Wilding", 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/T/T13/T13550_8.jpg", 
+  "title": "Elephant 3", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/wilding-elephant-3-t13550", 
+  "width": "430"
+}

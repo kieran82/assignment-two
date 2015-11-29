@@ -1,0 +1,44 @@
+{
+  "acno": "T01099", 
+  "acquisitionYear": 1968, 
+  "all_artists": "Charles Ginner", 
+  "catTextResId": 1139017, 
+  "catalogueGroup": {}, 
+  "classification": "on paper, unique", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1878, 
+      "date": "1878\u20131952", 
+      "displayOrder": 1, 
+      "fc": "Charles Ginner", 
+      "gender": "Male", 
+      "id": 1175, 
+      "mda": "Ginner, Charles", 
+      "role": "artist", 
+      "startLetter": "G"
+    }
+  ], 
+  "creditLine": "Presented by the Friends of the Tate Gallery 1968", 
+  "dateRange": {
+    "startYear": 1937, 
+    "text": "1937"
+  }, 
+  "dateText": "1937", 
+  "depth": "", 
+  "dimensions": "unconfirmed: 445 x 315 mm", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "315", 
+  "id": 5360, 
+  "inscription": null, 
+  "medium": "Graphite, watercolour and ink on paper", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": "\u00a9 The estate of Charles Ginner", 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/T/T01/T01099_8.jpg", 
+  "title": "Study for \u2018Flask Walk, Hampstead, on Coronation Day\u2019", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/ginner-study-for-flask-walk-hampstead-on-coronation-day-t01099", 
+  "width": "445"
+}

@@ -1,0 +1,49 @@
+{
+  "acno": "T13615", 
+  "acquisitionYear": 2012, 
+  "all_artists": "Fred Wilson", 
+  "catalogueGroup": {
+    "accessionRanges": "T13602; T13604-T13629", 
+    "completeStatus": "IRRELEVANT", 
+    "groupType": null, 
+    "id": 118813, 
+    "shortTitle": "Flag"
+  }, 
+  "classification": "painting", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1954, 
+      "date": "born 1954", 
+      "displayOrder": 1, 
+      "fc": "Fred Wilson", 
+      "gender": "Male", 
+      "id": 15855, 
+      "mda": "Wilson, Fred", 
+      "role": "artist", 
+      "startLetter": "W"
+    }
+  ], 
+  "creditLine": "Presented anonymously 2011", 
+  "dateRange": {
+    "startYear": 2009, 
+    "text": "2009"
+  }, 
+  "dateText": "2009", 
+  "depth": "", 
+  "dimensions": "support: 688 x 1020 mm", 
+  "foreignTitle": null, 
+  "groupTitle": "Flag", 
+  "height": "1020", 
+  "id": 118798, 
+  "inscription": null, 
+  "medium": "Acrylic paint on canvas", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": null, 
+  "thumbnailUrl": null, 
+  "title": "Lesotho", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/wilson-lesotho-t13615", 
+  "width": "688"
+}

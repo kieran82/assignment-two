@@ -1,0 +1,43 @@
+{
+  "acno": "T01376", 
+  "acquisitionYear": 1970, 
+  "all_artists": "William Tucker", 
+  "catalogueGroup": {}, 
+  "classification": "sculpture", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1935, 
+      "date": "born 1935", 
+      "displayOrder": 1, 
+      "fc": "William Tucker", 
+      "gender": "Male", 
+      "id": 2073, 
+      "mda": "Tucker, William", 
+      "role": "artist", 
+      "startLetter": "T"
+    }
+  ], 
+  "creditLine": "Presented by Alistair McAlpine (later Lord McAlpine of West Green) 1970", 
+  "dateRange": {
+    "startYear": 1964, 
+    "text": "1964"
+  }, 
+  "dateText": "1964", 
+  "depth": "343", 
+  "dimensions": "object: 933 x 1778 x 343 mm", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "1778", 
+  "id": 14521, 
+  "inscription": null, 
+  "medium": "Painted steel and fibreglass", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": "\u00a9 William Tucker", 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/T/T01/T01376_8.jpg", 
+  "title": "Meru III", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/tucker-meru-iii-t01376", 
+  "width": "933"
+}

@@ -1,0 +1,43 @@
+{
+  "acno": "N05559", 
+  "acquisitionYear": 1944, 
+  "all_artists": "Sir Charles Wheeler", 
+  "catalogueGroup": {}, 
+  "classification": "sculpture", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1892, 
+      "date": "1892\u20131974", 
+      "displayOrder": 1, 
+      "fc": "Sir Charles Wheeler", 
+      "gender": "Male", 
+      "id": 2138, 
+      "mda": "Wheeler, Sir Charles", 
+      "role": "artist", 
+      "startLetter": "W"
+    }
+  ], 
+  "creditLine": "Presented by the Trustees of the Chantrey Bequest 1944", 
+  "dateRange": {
+    "startYear": 1943, 
+    "text": "1943"
+  }, 
+  "dateText": "1943", 
+  "depth": "267", 
+  "dimensions": "object: 1314 x 384 x 267 mm", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "384", 
+  "id": 16118, 
+  "inscription": null, 
+  "medium": "Portland stone", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": "\u00a9 Estate of Sir Charles Wheeler", 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/N/N05/N05559_8.jpg", 
+  "title": "Aphrodite II", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/wheeler-aphrodite-ii-n05559", 
+  "width": "1314"
+}

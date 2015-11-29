@@ -1,0 +1,43 @@
+{
+  "acno": "T13682", 
+  "acquisitionYear": 2013, 
+  "all_artists": "Amikam Toren", 
+  "catalogueGroup": {}, 
+  "classification": "sculpture", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1945, 
+      "date": "born 1945", 
+      "displayOrder": 1, 
+      "fc": "Amikam Toren", 
+      "gender": "Male", 
+      "id": 16792, 
+      "mda": "Toren, Amikam", 
+      "role": "artist", 
+      "startLetter": "T"
+    }
+  ], 
+  "creditLine": "Purchased 2012", 
+  "dateRange": {
+    "startYear": 1975, 
+    "text": "1975"
+  }, 
+  "dateText": "1975", 
+  "depth": "", 
+  "dimensions": "Overall display dimensions variable", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "", 
+  "id": 123583, 
+  "inscription": null, 
+  "medium": "Glass, glue, wooden shelf and ink on paper", 
+  "movementCount": 0, 
+  "subjectCount": 0, 
+  "thumbnailCopyright": "\u00a9 Amikan Toren", 
+  "thumbnailUrl": "http://www.tate.org.uk/art/images/work/T/T13/T13682_8.jpg", 
+  "title": "Simple Fractions", 
+  "units": "", 
+  "url": "http://www.tate.org.uk/art/artworks/toren-simple-fractions-t13682", 
+  "width": ""
+}

@@ -1,0 +1,75 @@
+{
+  "acno": "T12121", 
+  "acquisitionYear": 2005, 
+  "all_artists": "Norah Braden", 
+  "catalogueGroup": {}, 
+  "classification": "sculpture", 
+  "contributorCount": 1, 
+  "contributors": [
+    {
+      "birthYear": 1901, 
+      "date": "1901\u20132001", 
+      "displayOrder": 1, 
+      "fc": "Norah Braden", 
+      "gender": "Female", 
+      "id": 8804, 
+      "mda": "Braden, Norah", 
+      "role": "artist", 
+      "startLetter": "B"
+    }
+  ], 
+  "creditLine": "Accepted by HM Government in lieu of inheritance tax and allocated to Tate 2005", 
+  "dateRange": {
+    "startYear": 1925, 
+    "text": "1925"
+  }, 
+  "dateText": "1925", 
+  "depth": "135", 
+  "dimensions": "object: 160 x 135 x 135 mm", 
+  "foreignTitle": null, 
+  "groupTitle": null, 
+  "height": "135", 
+  "id": 88250, 
+  "inscription": null, 
+  "medium": "Reduced stoneware", 
+  "movementCount": 0, 
+  "subjectCount": 2, 
+  "subjects": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "id": 19662, 
+                "name": "bowl"
+              }
+            ], 
+            "id": 84, 
+            "name": "kitchen"
+          }, 
+          {
+            "children": [
+              {
+                "id": 10623, 
+                "name": "ceramics"
+              }
+            ], 
+            "id": 80, 
+            "name": "fine arts and music"
+          }
+        ], 
+        "id": 78, 
+        "name": "objects"
+      }
+    ], 
+    "id": 1, 
+    "name": "subject"
+  }, 
+  "thumbnailCopyright": null, 
+  "thumbnailUrl": null, 
+  "title": "Deep Bowl on High Foot", 
+  "units": "mm", 
+  "url": "http://www.tate.org.uk/art/artworks/braden-deep-bowl-on-high-foot-t12121", 
+  "width": "160"
+}
