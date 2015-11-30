@@ -1,11 +1,17 @@
 package com.assessmentOne.controller;
 
+import java.util.List;
 //Java Imports
 import java.util.Locale;
+
+import javax.inject.Inject;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.social.connect.ConnectionRepository;
+import org.springframework.social.twitter.api.Tweet;
+import org.springframework.social.twitter.api.Twitter;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -24,7 +30,22 @@ public class ArtworkController {
 	@Autowired
 	private ArtworkRepository artworkRepository;
 
+	private Twitter twitter;
 
+	private ConnectionRepository connectionRepository;
+	
+	@Inject
+	public ArtworkController(Twitter twitter, ConnectionRepository connectionRepository) {
+	        this.twitter = twitter;
+	        this.connectionRepository = connectionRepository;
+	    }
+	
+	
+	
+	
+	
+	
+	
 	/*
 	 * String Index
 	 * 
@@ -97,6 +118,9 @@ public class ArtworkController {
 			username = "none";
 			role = "none";
 		}
+		
+		List<Tweet> twitter2 = twitter.searchOperations().search(artworks.getTitle() + " art ", 3).getTweets();
+		model.addAttribute("twitter2", twitter2);
 
 		// Add Attribute to Model for Template
 		model.addAttribute("username", username);

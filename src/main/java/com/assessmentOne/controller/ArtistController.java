@@ -1,13 +1,21 @@
 package com.assessmentOne.controller;
 
+import java.util.Arrays;
 import java.util.Date;
+import java.util.List;
 
+import javax.inject.Inject;
 import javax.servlet.http.HttpServletRequest;
 
 //Java Imports
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.social.connect.ConnectionRepository;
+import org.springframework.social.twitter.api.CursoredList;
+import org.springframework.social.twitter.api.Tweet;
+import org.springframework.social.twitter.api.Twitter;
+import org.springframework.social.twitter.api.Entities;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -23,8 +31,18 @@ import com.assessmentOne.repository.ArtistRepository;
 @RequestMapping("")
 public class ArtistController {
 
+	private Twitter twitter;
+
+	private ConnectionRepository connectionRepository;
+
 	@Autowired
 	private ArtistRepository artistRepository;
+
+	@Inject
+	public ArtistController(Twitter twitter, ConnectionRepository connectionRepository) {
+	        this.twitter = twitter;
+	        this.connectionRepository = connectionRepository;
+	    }
 
 	@RequestMapping(value = { "/", "/artist" })
 	public String index(Model model) {
@@ -93,6 +111,13 @@ public class ArtistController {
 		Artist artists = artistRepository.findById(id);
 		// Add Attribute to Model for Template
 		model.addAttribute("artist", artists);
+		
+		
+
+		List<Tweet> twitter2 = twitter.searchOperations().search(artists.getFullName() + " art ", 3).getTweets();
+		model.addAttribute("twitter2", twitter2);
+	
+
 		// Go to View html in the artist folder
 		return "artist/view";
 	}
