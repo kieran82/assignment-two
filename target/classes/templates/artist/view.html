@@ -13,30 +13,28 @@
 </head>
 
 <body>
+    <div class="navbar navbar-default">
+        <div class="navbar-header">
+        </div>
+        <div class="navbar-collapse collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/artist">Artists</a>
+                </li>
+                <li><a href="/artwork">Artwork</a>
+                </li>
+                <li th:if="${username == 'none'}"><a href="/login">Login</a>
+                </li>
+                <li th:if="${username != 'none'}"> <a href="/logout">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
     <div class="container">
         <div class="row">
-            <div class="navbar navbar-default">
-                <div class="navbar-header">
-                </div>
-                <div class="navbar-collapse collapse navbar-responsive-collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="/artist">Artists</a>
-                        </li>
-                        <li><a href="/artwork">Artwork</a>
-                        </li>
-                        <li th:if="${username == 'none'}"><a href="/login">Login</a>
-                        </li>
-                        <li th:if="${username != 'none'}"> <a href="/logout">Logout</a>
-                        </li>
 
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-lg-2">
-            </div>
-
-            <div class="col-lg-8">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
                 <h1 th:text="${artist.fullName}">Message Text</h1>
                 <div th:if="${artist.birth != null}">
                     <h3 th:text="${artist.birth.place.name}"> text </h3>
@@ -57,36 +55,26 @@
                         </tr>
                     </tbody>
                 </table>
-
-                <div style="margin-bottom:20px">
-
-                </div>
-
-<div>
-                <div th:each="arts : ${artist.artworks}">
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a th:href="@{|/artwork/${arts.id}|}" class="thumbnail">
-                            <img th:src="${arts.thumbnailUrl}" class="img-responsive" alt="Sponsored by SpringSource" />
-                        </a>
+                <div style="min-height:200px;margin-bottom:40px">
+                    <h3 style="margin-bottom:40px">Artwork</h3>
+                    <div th:each="arts : ${artist.artworks}">
+                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                            <a th:href="@{|/artwork/${arts.id}|}" class="thumbnail">
+                                <img th:src="${arts.thumbnailUrl}" class="img-responsive" alt="Sponsored by SpringSource" />
+                            </a>
+                        </div>
                     </div>
                 </div>
+                <hr/>
 
-</div>
-
-                <div style="margin-bottom:20px"></div>
                 <h3>Tweets</h3>
                 <blockquote th:each="twitter2: ${twitter2}">
                     <p th:if="${twitter2.text} != null" th:text="${twitter2.text}"></p>
                     <small>Tweeted by <cite title="Source Title" th:if="${twitter2.user.name} != null" th:text="${twitter2.user.name}">Source Title</cite></small>
                 </blockquote>
 
-
-
             </div>
-
-            <div class="col-lg-2">
-
-            </div>
+            <div class="col-lg-4"></div>
         </div>
     </div>
     <!-- /#wrapper -->

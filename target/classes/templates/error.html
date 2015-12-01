@@ -11,20 +11,26 @@
 
 </head>
 <body>
+
+    <div class="navbar navbar-default">
+        <div class="navbar-header">
+        </div>
+        <div class="navbar-collapse collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/artist">Artists</a>
+                </li>
+                <li><a href="/artwork">Artwork</a>
+                </li>
+                <li th:if="${username == 'none'}"><a href="/login">Login</a>
+                </li>
+                <li th:if="${username != 'none'}"> <a href="/logout">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 	<div class="container">
 		<div class="row">
-			<div class="navbar navbar-default">
-				<div class="navbar-header">
-				</div>
-				<div class="navbar-collapse collapse navbar-responsive-collapse">
-					<ul class="nav navbar-nav">
-						<li><a href="/artist">Artists</a></li>
-						<li><a href="/artwork">Artwork</a></li>
-						<li  th:if="${username == 'anonymousUser'}"><a href="/login" >Login</a></li>
-						<li th:if="${username != 'anonymousUser'}"> <a href="/logout">Logout</a></li>
-					</ul>
-				</div>
-			</div>
+		
 
 			<div class="col-lg-4">
 			</div>
