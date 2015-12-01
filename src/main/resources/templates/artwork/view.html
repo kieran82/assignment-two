@@ -72,15 +72,19 @@
 
                 <div th:if="${not #lists.isEmpty(twitter2)}">
                     <h2>Twitter</h2>
-                </div>
-
+        
 
                 <blockquote th:each="twitter2: ${twitter2}">
                     <p th:if="${twitter2.text} != null" th:text="${twitter2.text}"></p>
                     <small>Tweeted by <cite title="Source Title" th:if="${twitter2.user.name} != null" th:text="${twitter2.user.name}">Source Title</cite></small>
                 </blockquote>
 
-
+        </div>
+   <div th:if="${#lists.isEmpty(twitter2)}">
+      <h2>Twitter</h2>
+      <p>No tweets about this amazing artitst</p>
+         <input type="submit" class="btn btn-danger" value="Tweet" />
+   </div>
 
                 <h2 style="margin-top:100px">Comments</h2>
 
