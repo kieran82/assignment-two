@@ -31,8 +31,6 @@ public class ArtworkController {
 
 	private Twitter twitter;
 
-
-
 	@Inject
 	public ArtworkController(Twitter twitter) {
 		this.twitter = twitter;
@@ -89,9 +87,14 @@ public class ArtworkController {
 			role = "none";
 		}
 
-		List<Tweet> twitter2 = twitter.searchOperations().search(artworks.getTitle() + " art ", 3).getTweets();
-		model.addAttribute("twitter2", twitter2);
-		System.out.println(twitter2);
+		List<Tweet> tweets = null;
+		tweets = twitter.searchOperations().search(artworks.getTitle() + " art ", 3).getTweets();
+
+		if (tweets.isEmpty()) { // If the results our empty for the artist or artwork show ones about the tate gallery
+			tweets = twitter.searchOperations().search("tate gallery ", 3).getTweets();
+		}
+
+		model.addAttribute("tweets", tweets);
 
 		model.addAttribute("username", username);
 
@@ -118,17 +121,17 @@ public class ArtworkController {
 		model.addAttribute("username", username);
 
 		Comment newComments = new Comment();
-				newComments.setUsername(comment.getUsername());
-				newComments.setArtworkId(id);
-				newComments.setContent(comment.getContent());
-				newComments.setTime(comment.getTime());
+		newComments.setUsername(comment.getUsername());
+		newComments.setArtworkId(id);
+		newComments.setContent(comment.getContent());
+		newComments.setTime(comment.getTime());
 
 		artworkRepository.addComment(newComments);
 
 		Artwork artworks = artworkRepository.findById(Integer.parseInt(id));
-			model.addAttribute("artworks", artworks);
+		model.addAttribute("artworks", artworks);
 		Iterable<Comment> comments = artworkRepository.getComments(id);
-			model.addAttribute("comments", comments);
+		model.addAttribute("comments", comments);
 
 		return "artwork/view";
 	}

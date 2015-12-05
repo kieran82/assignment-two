@@ -84,14 +84,18 @@ public class ArtistController {
 
 		}
 
+		Artist artists = artistRepository.findById(id);
+		model.addAttribute("artist", artists);
 		model.addAttribute("username", username);
 
-		Artist artists = artistRepository.findById(id);
+		List<Tweet> tweets = null;
+		tweets = twitter.searchOperations().search(artists.getFullName() + " art ", 3).getTweets();
 
-		model.addAttribute("artist", artists);
+		if (tweets.isEmpty()) {
+			tweets = twitter.searchOperations().search("tate gallery " , 3).getTweets();
+		}
 
-		List<Tweet> twitter2 = twitter.searchOperations().search(artists.getFullName() + " art ", 3).getTweets();
-		model.addAttribute("twitter2", twitter2);
+		model.addAttribute("tweets", tweets);
 
 		return "artist/view";
 	}

@@ -1,18 +1,26 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
+
 <head>
-    
-	<title>Login</title>
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type"></meta>
-	<link href="/css/bootstrap.min.css" rel="stylesheet"></link>
-	<link href="/css/roboto.min.css" rel="stylesheet"></link>
-	<link href="/css/material.min.css" rel="stylesheet"></link>
-	<link href="/css/ripples.min.css" rel="stylesheet"></link>
+
+    <title>Login</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"></meta>
+    <link href="/css/bootstrap.min.css" rel="stylesheet"></link>
+    <link href="/css/roboto.min.css" rel="stylesheet"></link>
+    <link href="/css/material.min.css" rel="stylesheet"></link>
+    <link href="/css/ripples.min.css" rel="stylesheet"></link>
 
 </head>
+
 <body>
-    <div class="navbar navbar-default">
+    <div class="navbar navbar-warning">
         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="javascript:void(0)">Tate</a>
         </div>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
             <ul class="nav navbar-nav">
@@ -28,71 +36,74 @@
         </div>
     </div>
 
-	<div class="container">
-		<div class="row">
+    <div class="container">
+        <div class="row">
 
-			<div class="col-lg-4">
-			</div>
+            <div class="col-lg-4">
+            </div>
 
-			<div class="col-lg-4">
-			    <h1>Login</h1>
+            <div class="col-lg-4">
+                <h1>Login</h1>
                 <div th:if="${param.error}">
-     
+
                     <div class="alert alert-dismissable alert-warning">
                         <button type="button" class="close" data-dismiss="alert">×</button>
                         <h4>Warning!</h4>
                         <p>Invalid username and password.</p>
                     </div>
                 </div>
-     
+
                 <div th:if="${param.logout}">
-     
+
                     <div class="alert alert-dismissable alert-success">
                         <button type="button" class="close" data-dismiss="alert">×</button>
-                        <strong>Well done!</strong> <p> You have been logged out.</p>.
+                        <strong>Well done!</strong>
+                        <p> You have been logged out.</p>.
                     </div>
-                    
+
                 </div>
-                
+
                 <form th:action="@{/login}" method="post" class="form-horizontal">
-     
-                   <div class="form-group">
-                         <div class="col-lg-10">
-                             <input type="text"  placeholder="User Name" required="required" class="form-control" name="username"  />
-                        </div>
-                    </div>
-        
-                     <div class="form-group">
+
+                    <div class="form-group">
                         <div class="col-lg-10">
-                             <input type="password"  placeholder="Password" required="required" class="form-control" name="password"  />
+                            <input type="text" placeholder="User Name" required="required" class="form-control" name="username" />
                         </div>
                     </div>
-     
+
+                    <div class="form-group">
+                        <div class="col-lg-10">
+                            <input type="password" placeholder="Password" required="required" class="form-control" name="password" />
+                        </div>
+                    </div>
+
                     <div class="form-group">
                         <div class="col-lg-10">
                             <button type="submit" class="btn btn-primary">Signin</button>
-                         
+
                         </div>
                     </div>
                 </form>
-  	         </div>
+            </div>
 
-			<div class="col-lg-4">
-			</div>
-		</div>
-	</div>
-	<!-- /#wrapper -->
-	<script src="/js/jquery-1.10.2.min.js"></script> 
-	<script src="/js/bootstrap.min.js"></script> 
-	<script src="/js/ripples.min.js"></script> 
-	<script src="/js/material.min.js"></script> 
-	<script>
-	   $(document).ready(function() {
-		   // This command is used to initialize some elements and make them work properly
-		   $.material.init();
-	   });
-	</script> <!-- Menu Toggle Script -->
-	 
-	
+            <div class="col-lg-4">
+            </div>
+        </div>
+    </div>
+    <!-- /#wrapper -->
+    <script src="/js/jquery-1.10.2.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/ripples.min.js"></script>
+    <script src="/js/material.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // This command is used to initialize some elements and make them work properly
+            $.material.init();
+        });
+    </script>
+    <!-- Menu Toggle Script -->
+
+
 </body>
+
 </html>

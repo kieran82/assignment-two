@@ -11,8 +11,14 @@
 </head>
 
 <body>
-    <div class="navbar navbar-default">
+    <div class="navbar navbar-warning">
         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="javascript:void(0)">Tate</a>
         </div>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
             <ul class="nav navbar-nav">
@@ -29,62 +35,68 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4"></div>
+            <div class="col-lg-3"></div>
 
-            <div class="col-lg-4">
-                <img th:src="${artworks.thumbnailUrl}" alt="Sponsored by SpringSource" />
-                <h1 th:text="${artworks.title}">gender</h1>
-                <br/>
-                <h3>Contributors</h3>
-                <table class="table table-striped table-hover ">
-                    <thead>
-                        <tr>
-                            <th>Artist Name</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr th:each="contributor: ${artworks.contributors}">
-                            <td><a th:href="@{|/artist/${contributor.artist_id}|}" th:text="${contributor.name}">fullName</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div>
-                    <br />
+            <div class="col-lg-6">
 
-                    <h3>Movements</h3>
 
-                    <table class="table table-striped table-hover ">
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr th:each="movement: ${artworks.movements}">
-                                <td th:if="${movement.name} != null" th:text="${movement.name}"></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-lg-12">
+                    <img style="float:left; margin-right:40px;" th:src="${artworks.thumbnailUrl}" alt="Sponsored by SpringSource" />
+                    <div class="content-heading">
+                        <h3 th:text="${artworks.title}">gender</h3>
+                    </div>
+                    <p>The 66-year-old French philosopher Jacques Rancière is clearly the new go-to guy for hip art theorists. Artforum magazine’s ever-sagacious online "Diary" has referred to Rancière as the art world’s "darling du jour," and in its recent issue, the magazine itself has described digital video artist Paul Chan as "Rancièrian" -- as an aside, without further explanation, no less! For anyone looking for a primer, Rancière’s slim The Politics of Aesthetics has just been published in paperback.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h3>Contributors</h3>
+                        <table class="table table-striped table-hover ">
+                            <thead>
+                                <tr>
+                                    <th>Artist Name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr th:each="contributor: ${artworks.contributors}">
+                                    <td><a th:href="@{|/artist/${contributor.artist_id}|}" th:text="${contributor.name}">fullName</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>Movements</h3>
+
+                        <table class="table table-striped table-hover ">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr th:each="movement: ${artworks.movements}">
+                                    <td th:if="${movement.name} != null" th:text="${movement.name}"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
+                <div style="    margin-top: 270px;margin-bottom:20px;"></div>
+
+                <div th:if="${not #lists.isEmpty(tweets)}">
+                    <h3>Tweets</h3>
+                    <blockquote th:each="tweets: ${tweets}">
+
+
+                        <p th:if="${tweets.text} != null" th:text="${tweets.text}"> fullName</p>
+                        <small>Tweeted by <cite title="Source Title" th:if="${tweets.user.name} != null" th:text="${tweets.user.name}">Source Title</cite></small>
+                    </blockquote>
 
                 </div>
-                <div style="margin-bottom:20px"></div>
 
-                <div th:if="${not #lists.isEmpty(twitter2)}">
-                    <h2>Twitter</h2>
-        
-
-                <blockquote th:each="twitter2: ${twitter2}">
-                    <p th:if="${twitter2.text} != null" th:text="${twitter2.text}"></p>
-                    <small>Tweeted by <cite title="Source Title" th:if="${twitter2.user.name} != null" th:text="${twitter2.user.name}">Source Title</cite></small>
-                </blockquote>
-
-        </div>
-   <div th:if="${#lists.isEmpty(twitter2)}">
-      <h2>Twitter</h2>
-      <p>No tweets about this amazing artitst</p>
-         <input type="submit" class="btn btn-danger" value="Tweet" />
-   </div>
 
                 <h2 style="margin-top:100px">Comments</h2>
 
@@ -128,7 +140,7 @@
 
                 </div>
             </div>
-            <div class="col-lg-4"></div>
+            <div class="col-lg-3"></div>
         </div>
     </div>
     <!-- /#wrapper -->
