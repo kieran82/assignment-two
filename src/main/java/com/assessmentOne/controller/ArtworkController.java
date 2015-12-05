@@ -90,7 +90,7 @@ public class ArtworkController {
 		List<Tweet> tweets = null;
 		tweets = twitter.searchOperations().search(artworks.getTitle() + " art ", 3).getTweets();
 
-		if (tweets.isEmpty()) { // If the results our empty for the artist or artwork show ones about the tate gallery
+		if (tweets.isEmpty()) { //If empty search for tate gallery tweets instead
 			tweets = twitter.searchOperations().search("tate gallery ", 3).getTweets();
 		}
 
